@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.teavm",
+    "module": "teavm-relocated-libs-asm-util",
+    "version": "0.11.0-EAGLER-R1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "teavm-relocated-libs-asm-util-0.11.0-EAGLER-R1.jar",
+          "url": "teavm-relocated-libs-asm-util-0.11.0-EAGLER-R1.jar",
+          "size": 92993,
+          "sha512": "0f0a816aca63faa8a2edffe1453a6fd3d1197abd48c536af25693d9faa52445c7c6f99a50e829b9fb4892a93377f5ae86ca79dbf7a01f68610ad3df06fb49bf0",
+          "sha256": "a703a24424df22b7e5bd2e7c722b2f03f2d448147faf610764ae3521acd726bd",
+          "sha1": "fe94c78c38381d352f356e895e7dd00f3211bda0",
+          "md5": "6652f4f3e783d14f53bd137df42c23c5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.teavm",
+          "module": "teavm-relocated-libs-asm",
+          "version": {
+            "requires": "0.11.0-EAGLER-R1"
+          }
+        },
+        {
+          "group": "org.teavm",
+          "module": "teavm-relocated-libs-asm-tree",
+          "version": {
+            "requires": "0.11.0-EAGLER-R1"
+          }
+        },
+        {
+          "group": "org.teavm",
+          "module": "teavm-relocated-libs-asm-analysis",
+          "version": {
+            "requires": "0.11.0-EAGLER-R1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "teavm-relocated-libs-asm-util-0.11.0-EAGLER-R1.jar",
+          "url": "teavm-relocated-libs-asm-util-0.11.0-EAGLER-R1.jar",
+          "size": 92993,
+          "sha512": "0f0a816aca63faa8a2edffe1453a6fd3d1197abd48c536af25693d9faa52445c7c6f99a50e829b9fb4892a93377f5ae86ca79dbf7a01f68610ad3df06fb49bf0",
+          "sha256": "a703a24424df22b7e5bd2e7c722b2f03f2d448147faf610764ae3521acd726bd",
+          "sha1": "fe94c78c38381d352f356e895e7dd00f3211bda0",
+          "md5": "6652f4f3e783d14f53bd137df42c23c5"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "teavm-relocated-libs-asm-util-0.11.0-EAGLER-R1-sources.jar",
+          "url": "teavm-relocated-libs-asm-util-0.11.0-EAGLER-R1-sources.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "teavm-relocated-libs-asm-util-0.11.0-EAGLER-R1-javadoc.jar",
+          "url": "teavm-relocated-libs-asm-util-0.11.0-EAGLER-R1-javadoc.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.teavm",
+    "module": "teavm-relocated-libs-asm-analysis",
+    "version": "0.11.0-EAGLER-R1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-analysis",
+          "version": {
+            "requires": "9.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "teavm-relocated-libs-asm-analysis-0.11.0-EAGLER-R1.jar",
+          "url": "teavm-relocated-libs-asm-analysis-0.11.0-EAGLER-R1.jar",
+          "size": 34210,
+          "sha512": "8359e59e0d8f79dbd28ab11591975f678ace080f6165d4a22dd227256a095fe65eadbfe81431afb9b725ce16ae4c781f474ff10799501f8dc5451fe7806a66e7",
+          "sha256": "b96be45813003580805f167f228d0ccfcd1398e3c713b80aba0f7709084c2aab",
+          "sha1": "35d4640fdeea0caa8bb25dcd3a9a794694fba60d",
+          "md5": "5cd06fe1bf7489eaa319035cf3c5a6a2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.teavm",
+          "module": "teavm-relocated-libs-asm-tree",
+          "version": {
+            "requires": "0.11.0-EAGLER-R1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "teavm-relocated-libs-asm-analysis-0.11.0-EAGLER-R1.jar",
+          "url": "teavm-relocated-libs-asm-analysis-0.11.0-EAGLER-R1.jar",
+          "size": 34210,
+          "sha512": "8359e59e0d8f79dbd28ab11591975f678ace080f6165d4a22dd227256a095fe65eadbfe81431afb9b725ce16ae4c781f474ff10799501f8dc5451fe7806a66e7",
+          "sha256": "b96be45813003580805f167f228d0ccfcd1398e3c713b80aba0f7709084c2aab",
+          "sha1": "35d4640fdeea0caa8bb25dcd3a9a794694fba60d",
+          "md5": "5cd06fe1bf7489eaa319035cf3c5a6a2"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "teavm-relocated-libs-asm-analysis-0.11.0-EAGLER-R1-sources.jar",
+          "url": "teavm-relocated-libs-asm-analysis-0.11.0-EAGLER-R1-sources.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "teavm-relocated-libs-asm-analysis-0.11.0-EAGLER-R1-javadoc.jar",
+          "url": "teavm-relocated-libs-asm-analysis-0.11.0-EAGLER-R1-javadoc.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.teavm",
+    "module": "teavm-chrome-rdp",
+    "version": "0.11.0-EAGLER-R1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "teavm-chrome-rdp-0.11.0-EAGLER-R1.jar",
+          "url": "teavm-chrome-rdp-0.11.0-EAGLER-R1.jar",
+          "size": 60632,
+          "sha512": "ceee0f1ef852d7bb568827bbe2052a3388d0e75eb0347506d926c1c2b258d46be7082a41c15d3563b55684c38d2bdeffed7054c68c6fd8f8a3887acecb7c354a",
+          "sha256": "447265e4116919bf0f19219b9e9e51cf25133362869b43237b39e4cba16671fb",
+          "sha1": "8cf94eedefc148e0ab19336c441ad75231715938",
+          "md5": "2fbbf9377ec0672031f64f015ba34b57"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.teavm",
+          "module": "teavm-core",
+          "version": {
+            "requires": "0.11.0-EAGLER-R1"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-server",
+          "version": {
+            "requires": "9.4.54.v20240208"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty.websocket",
+          "module": "javax-websocket-server-impl",
+          "version": {
+            "requires": "9.4.54.v20240208"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.6"
+          }
+        },
+        {
+          "group": "javax.websocket",
+          "module": "javax.websocket-api",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.17.0"
+          }
+        },
+        {
+          "group": "org.teavm",
+          "module": "teavm-relocated-libs-hppc",
+          "version": {
+            "requires": "0.11.0-EAGLER-R1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "teavm-chrome-rdp-0.11.0-EAGLER-R1.jar",
+          "url": "teavm-chrome-rdp-0.11.0-EAGLER-R1.jar",
+          "size": 60632,
+          "sha512": "ceee0f1ef852d7bb568827bbe2052a3388d0e75eb0347506d926c1c2b258d46be7082a41c15d3563b55684c38d2bdeffed7054c68c6fd8f8a3887acecb7c354a",
+          "sha256": "447265e4116919bf0f19219b9e9e51cf25133362869b43237b39e4cba16671fb",
+          "sha1": "8cf94eedefc148e0ab19336c441ad75231715938",
+          "md5": "2fbbf9377ec0672031f64f015ba34b57"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "teavm-chrome-rdp-0.11.0-EAGLER-R1-sources.jar",
+          "url": "teavm-chrome-rdp-0.11.0-EAGLER-R1-sources.jar",
+          "size": 42057,
+          "sha512": "2d0aea0d73a080da05ef1b320f0b7fb0f1bd18e9aa4474eed35041b89fb90ec6dad3adab29bc946d7bd779e45597a5bdbfa75226854ea8e6c6b3b1568f853f65",
+          "sha256": "8e06f8fa2382beaf12b49c5064d3799ab2e17256c55b14c890573529710c419e",
+          "sha1": "1f43ad92af3982d25dc78a0617b7fee658757817",
+          "md5": "3504586e1f2892cba2bf3aa1f5a0664a"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "teavm-chrome-rdp-0.11.0-EAGLER-R1-javadoc.jar",
+          "url": "teavm-chrome-rdp-0.11.0-EAGLER-R1-javadoc.jar",
+          "size": 173827,
+          "sha512": "51237616ee069873802554b4d613c1388385bd1a78fb6aff531234f454aeaa15c10ab54d8a7ba658e57d9322645cd8b6ad1ea393c540d5a5ac11f7bbe93392c3",
+          "sha256": "e0a28f72a160827fa1a35272578c43de964ba715572290578cfabb5330bda115",
+          "sha1": "75465db6d5396959b950dac305e8a8ea39e45d79",
+          "md5": "dd0f9b15cbea6cb17fe3ca1ab7cbebff"
+        }
+      ]
+    }
+  ]
+}
