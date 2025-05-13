@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.teavm",
+    "module": "teavm-c-incremental",
+    "version": "0.12.0-EAGLER-R2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "teavm-c-incremental-0.12.0-EAGLER-R2.jar",
+          "url": "teavm-c-incremental-0.12.0-EAGLER-R2.jar",
+          "size": 15673,
+          "sha512": "8d0d25d1eb922d6770d525332d634bcf129ae13ee44b42073516a1722394a19515f87430be00a41451b1be3ee255b340294c6abcf3004fc7eb1249d6e015ce9e",
+          "sha256": "a42d8cde0a2fa8a901b721425cc3b6a3291609cca2e00c325af6d3616cf1496a",
+          "sha1": "2eccc9f27a9f7c24ed6785039ae1c5bae934d8df",
+          "md5": "6e505af653f2bd61e6a421a9b0832947"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.teavm",
+          "module": "teavm-core",
+          "version": {
+            "requires": "0.12.0-EAGLER-R2"
+          }
+        },
+        {
+          "group": "org.teavm",
+          "module": "teavm-tooling",
+          "version": {
+            "requires": "0.12.0-EAGLER-R2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "teavm-c-incremental-0.12.0-EAGLER-R2.jar",
+          "url": "teavm-c-incremental-0.12.0-EAGLER-R2.jar",
+          "size": 15673,
+          "sha512": "8d0d25d1eb922d6770d525332d634bcf129ae13ee44b42073516a1722394a19515f87430be00a41451b1be3ee255b340294c6abcf3004fc7eb1249d6e015ce9e",
+          "sha256": "a42d8cde0a2fa8a901b721425cc3b6a3291609cca2e00c325af6d3616cf1496a",
+          "sha1": "2eccc9f27a9f7c24ed6785039ae1c5bae934d8df",
+          "md5": "6e505af653f2bd61e6a421a9b0832947"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "teavm-c-incremental-0.12.0-EAGLER-R2-sources.jar",
+          "url": "teavm-c-incremental-0.12.0-EAGLER-R2-sources.jar",
+          "size": 7239,
+          "sha512": "d6309c9dd2dae92c4d51900dd6d1256915ff3422bfe1d2c9b3de00276c8d83e8b2ed6a8a5b11aefc0c5dfda353d6505a5e68d0e21dcbee42f8a55ab214dfce10",
+          "sha256": "6e4efc5432ba48462efc4349e245654ed3c32c2454f95b87723170bb7e9f7a4d",
+          "sha1": "ebfd432276be77c7f075298db0de351c1ccf461f",
+          "md5": "18a49f96717937827f4f581d1d563c77"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "teavm-c-incremental-0.12.0-EAGLER-R2-javadoc.jar",
+          "url": "teavm-c-incremental-0.12.0-EAGLER-R2-javadoc.jar",
+          "size": 77446,
+          "sha512": "833ea01c8e47e29009addbf9cffc525d7a21e8634a6792176020f5e2909009d901b397b36f0cfcaa0c75847470b44979d4ef7fc3531fe287624f43aee81fa122",
+          "sha256": "d0cc0d12392c406883bfa3097cd51694001d3b7a1f73c9d4a8fc962e7ae51033",
+          "sha1": "acc84ad6f8e2771e48dd49831acdf70cb792bc35",
+          "md5": "d650048f50fb6cc77c4466c8c1c9539e"
+        }
+      ]
+    }
+  ]
+}

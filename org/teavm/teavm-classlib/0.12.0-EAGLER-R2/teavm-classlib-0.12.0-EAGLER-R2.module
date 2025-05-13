@@ -1,0 +1,202 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.teavm",
+    "module": "teavm-classlib",
+    "version": "0.12.0-EAGLER-R2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.teavm",
+          "module": "teavm-platform",
+          "version": {
+            "requires": "0.12.0-EAGLER-R2"
+          }
+        },
+        {
+          "group": "org.teavm",
+          "module": "teavm-jso-apis",
+          "version": {
+            "requires": "0.12.0-EAGLER-R2"
+          }
+        },
+        {
+          "group": "org.teavm",
+          "module": "teavm-jso-impl",
+          "version": {
+            "requires": "0.12.0-EAGLER-R2"
+          }
+        },
+        {
+          "group": "org.teavm",
+          "module": "teavm-metaprogramming-impl",
+          "version": {
+            "requires": "0.12.0-EAGLER-R2"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.18.0"
+          }
+        },
+        {
+          "group": "com.jcraft",
+          "module": "jzlib",
+          "version": {
+            "requires": "1.1.3"
+          }
+        },
+        {
+          "group": "joda-time",
+          "module": "joda-time",
+          "version": {
+            "requires": "2.12.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "teavm-classlib-0.12.0-EAGLER-R2.jar",
+          "url": "teavm-classlib-0.12.0-EAGLER-R2.jar",
+          "size": 17668212,
+          "sha512": "f79aa240f8beb64354f0e72e06f0a1e506ddce51a6258cdca945b2b6bb6bed56c875ef6c0e5991c37c25ceeebbc11b1691bbb7f3fc9f3bca59a2f497278a8248",
+          "sha256": "662da1ad9b4f96988122e96144bcf772d31b5b61e0fc868604709bb157b90dae",
+          "sha1": "995fdfc0cae5a56b362bd8609da890f1781ed6f2",
+          "md5": "8031492071f2f49fed1cdffe3ad62aee"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.teavm",
+          "module": "teavm-platform",
+          "version": {
+            "requires": "0.12.0-EAGLER-R2"
+          }
+        },
+        {
+          "group": "org.teavm",
+          "module": "teavm-jso-apis",
+          "version": {
+            "requires": "0.12.0-EAGLER-R2"
+          }
+        },
+        {
+          "group": "org.teavm",
+          "module": "teavm-jso-impl",
+          "version": {
+            "requires": "0.12.0-EAGLER-R2"
+          }
+        },
+        {
+          "group": "org.teavm",
+          "module": "teavm-metaprogramming-impl",
+          "version": {
+            "requires": "0.12.0-EAGLER-R2"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.18.0"
+          }
+        },
+        {
+          "group": "com.jcraft",
+          "module": "jzlib",
+          "version": {
+            "requires": "1.1.3"
+          }
+        },
+        {
+          "group": "joda-time",
+          "module": "joda-time",
+          "version": {
+            "requires": "2.12.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "teavm-classlib-0.12.0-EAGLER-R2.jar",
+          "url": "teavm-classlib-0.12.0-EAGLER-R2.jar",
+          "size": 17668212,
+          "sha512": "f79aa240f8beb64354f0e72e06f0a1e506ddce51a6258cdca945b2b6bb6bed56c875ef6c0e5991c37c25ceeebbc11b1691bbb7f3fc9f3bca59a2f497278a8248",
+          "sha256": "662da1ad9b4f96988122e96144bcf772d31b5b61e0fc868604709bb157b90dae",
+          "sha1": "995fdfc0cae5a56b362bd8609da890f1781ed6f2",
+          "md5": "8031492071f2f49fed1cdffe3ad62aee"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "teavm-classlib-0.12.0-EAGLER-R2-sources.jar",
+          "url": "teavm-classlib-0.12.0-EAGLER-R2-sources.jar",
+          "size": 1787926,
+          "sha512": "e7969e2cc6759479b0897721e83397194c1a6eddd51a2d1dd8212ce30c267c6ffd3eb5eac59e5dd1ce087a3a977260fbc4ffaee985987d86f6acb3c8dc635304",
+          "sha256": "34092b4c0cadf59a491a1020f321ce4f5ddabe4833718b3b9206a486132d3a32",
+          "sha1": "0699977ad75ce25beffaee0a325233a7a2cbc7c5",
+          "md5": "012f8553830fa8a2c37c033cd47be3ef"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "teavm-classlib-0.12.0-EAGLER-R2-javadoc.jar",
+          "url": "teavm-classlib-0.12.0-EAGLER-R2-javadoc.jar",
+          "size": 3604465,
+          "sha512": "7a4876bde006554c9c44823a3bb82e6a7bb426e5465ef6e0d1c4b83379696dd8e2394a43f9adfc039f823b088b1892520a3371f74130491e1e9820cc31dee0f8",
+          "sha256": "ee04ff94c0b067c584d1116168e2177ba3c1f5e039ca76a5d3bf6b7a8a2276f7",
+          "sha1": "bbe1409da2c0a2e03c6c972a97a46b3f18bb6f47",
+          "md5": "4f3dbf089818f998997d3346dd29174a"
+        }
+      ]
+    }
+  ]
+}

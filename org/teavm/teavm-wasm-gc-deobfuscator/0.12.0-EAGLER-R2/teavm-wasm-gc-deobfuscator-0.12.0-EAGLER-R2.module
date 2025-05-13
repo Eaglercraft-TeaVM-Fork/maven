@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.teavm",
+    "module": "teavm-wasm-gc-deobfuscator",
+    "version": "0.12.0-EAGLER-R2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "teavm-wasm-gc-deobfuscator-0.12.0-EAGLER-R2.jar",
+          "url": "teavm-wasm-gc-deobfuscator-0.12.0-EAGLER-R2.jar",
+          "size": 18952,
+          "sha512": "52ab89b664ec7cb4261849f45876db3c7a97eda08fc6abb3c37a9b74b55b2c4b5addf5885b1416e946c4a92dd4fd30354a290b515619eb198e8db83f9db62e2f",
+          "sha256": "00572e22dd0a3415aa237c0ef6abb78d68a731a32f0dfed0da7f9ba97eeccae1",
+          "sha1": "3d04517e0b7ceacfd718d071fd292033c72ea189",
+          "md5": "1b3ed31e4d913e2080855ff4cbcd0080"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "teavm-wasm-gc-deobfuscator-0.12.0-EAGLER-R2.jar",
+          "url": "teavm-wasm-gc-deobfuscator-0.12.0-EAGLER-R2.jar",
+          "size": 18952,
+          "sha512": "52ab89b664ec7cb4261849f45876db3c7a97eda08fc6abb3c37a9b74b55b2c4b5addf5885b1416e946c4a92dd4fd30354a290b515619eb198e8db83f9db62e2f",
+          "sha256": "00572e22dd0a3415aa237c0ef6abb78d68a731a32f0dfed0da7f9ba97eeccae1",
+          "sha1": "3d04517e0b7ceacfd718d071fd292033c72ea189",
+          "md5": "1b3ed31e4d913e2080855ff4cbcd0080"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "teavm-wasm-gc-deobfuscator-0.12.0-EAGLER-R2-sources.jar",
+          "url": "teavm-wasm-gc-deobfuscator-0.12.0-EAGLER-R2-sources.jar",
+          "size": 18952,
+          "sha512": "24314ea316dd9e20aece0ef9108ce9a5135c7e2d9612b517ba2a95b64c0d94dff412a38f6669d24fa8cb3d5dc53b34cb596af48b1e18172ec54dfff2929fa0bf",
+          "sha256": "e6a9cded714c364535e4882552f1bd22e5e5adb53f1d2da6a0c5cf67582539f9",
+          "sha1": "46dc82125e974c1297c4ab693d791d7031aa56ca",
+          "md5": "983c462435cc471896db01c8e48f2da7"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "teavm-wasm-gc-deobfuscator-0.12.0-EAGLER-R2-javadoc.jar",
+          "url": "teavm-wasm-gc-deobfuscator-0.12.0-EAGLER-R2-javadoc.jar",
+          "size": 18952,
+          "sha512": "24314ea316dd9e20aece0ef9108ce9a5135c7e2d9612b517ba2a95b64c0d94dff412a38f6669d24fa8cb3d5dc53b34cb596af48b1e18172ec54dfff2929fa0bf",
+          "sha256": "e6a9cded714c364535e4882552f1bd22e5e5adb53f1d2da6a0c5cf67582539f9",
+          "sha1": "46dc82125e974c1297c4ab693d791d7031aa56ca",
+          "md5": "983c462435cc471896db01c8e48f2da7"
+        }
+      ]
+    }
+  ]
+}

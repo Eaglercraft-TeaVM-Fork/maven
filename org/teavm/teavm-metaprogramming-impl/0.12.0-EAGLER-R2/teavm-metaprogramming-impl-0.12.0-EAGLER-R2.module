@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.teavm",
+    "module": "teavm-metaprogramming-impl",
+    "version": "0.12.0-EAGLER-R2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "teavm-metaprogramming-impl-0.12.0-EAGLER-R2.jar",
+          "url": "teavm-metaprogramming-impl-0.12.0-EAGLER-R2.jar",
+          "size": 110478,
+          "sha512": "c38fc773570ada8bd3cb385b3d195f2476f4efa9dfe7a50f772b659ec10e08eb6e4f2f2e0a511ca310ebf8c0317b46607186e5064b5f1a208484fc6442fb7a14",
+          "sha256": "58dc12b78761c18057747e948cb9b4db13667df70e438f5dc75165478b428105",
+          "sha1": "9f52c7f0718c9539b11510f5bca1c4ab58392b2a",
+          "md5": "c001deb0c9a567f2cac91f9f9b16415f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.teavm",
+          "module": "teavm-metaprogramming-api",
+          "version": {
+            "requires": "0.12.0-EAGLER-R2"
+          }
+        },
+        {
+          "group": "org.teavm",
+          "module": "teavm-relocated-libs-commons-io",
+          "version": {
+            "requires": "0.12.0-EAGLER-R2"
+          }
+        },
+        {
+          "group": "org.teavm",
+          "module": "teavm-relocated-libs-asm",
+          "version": {
+            "requires": "0.12.0-EAGLER-R2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "teavm-metaprogramming-impl-0.12.0-EAGLER-R2.jar",
+          "url": "teavm-metaprogramming-impl-0.12.0-EAGLER-R2.jar",
+          "size": 110478,
+          "sha512": "c38fc773570ada8bd3cb385b3d195f2476f4efa9dfe7a50f772b659ec10e08eb6e4f2f2e0a511ca310ebf8c0317b46607186e5064b5f1a208484fc6442fb7a14",
+          "sha256": "58dc12b78761c18057747e948cb9b4db13667df70e438f5dc75165478b428105",
+          "sha1": "9f52c7f0718c9539b11510f5bca1c4ab58392b2a",
+          "md5": "c001deb0c9a567f2cac91f9f9b16415f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "teavm-metaprogramming-impl-0.12.0-EAGLER-R2-sources.jar",
+          "url": "teavm-metaprogramming-impl-0.12.0-EAGLER-R2-sources.jar",
+          "size": 52953,
+          "sha512": "5e629e8f596d290d1aac2054fd8599f53533918c10eec412cc60d1fa76b9f7c0b9c8a5a0402b7e594558b82430d522c3d87a7b110bff4231d2658d63f8cc3d09",
+          "sha256": "2940562d45ac744397568bcddff246a8d4f0bf13bfdd4fba4b48a8994ed50be6",
+          "sha1": "05e916a6ac8728b70335b9bd46fec8f9a136aa10",
+          "md5": "0cab058fd93d08887afde19db7f71398"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "teavm-metaprogramming-impl-0.12.0-EAGLER-R2-javadoc.jar",
+          "url": "teavm-metaprogramming-impl-0.12.0-EAGLER-R2-javadoc.jar",
+          "size": 155038,
+          "sha512": "af37bf3b05a8b86dd09271a4a248e4815e9e2bad859131d9747f7141ab632a553709d38b7083af1b2200596d9bb8185bd740590ce2493708ebb107257165ba24",
+          "sha256": "dc7c0a7d63246c7fe57799f0abec936eb1a5973c3b1733c081a766d4ebfdee77",
+          "sha1": "ec9e0ac8361453df7285fd1c4be9d62258288047",
+          "md5": "b40f85849a1b9bd3db31a934f931461a"
+        }
+      ]
+    }
+  ]
+}

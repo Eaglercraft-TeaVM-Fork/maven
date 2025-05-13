@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.teavm",
+    "module": "teavm-platform",
+    "version": "0.12.0-EAGLER-R2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "teavm-platform-0.12.0-EAGLER-R2.jar",
+          "url": "teavm-platform-0.12.0-EAGLER-R2.jar",
+          "size": 141011,
+          "sha512": "d722633aa80cda6f8b730570c64fcf8dfc33bca414089c993124104e0335f4f425d23c89e3b7d10c65943382243624bc3405abee0e30007873d69cf808ef3d2a",
+          "sha256": "90a6850297837e22ef052ca56c3ce6e0820442b977d49a60e623ca4acfa9a340",
+          "sha1": "94f594f8a134f8e251bb4c394e87a378c1017a4f",
+          "md5": "379207c945732ef380b9607bce4c9fce"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.teavm",
+          "module": "teavm-jso-apis",
+          "version": {
+            "requires": "0.12.0-EAGLER-R2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "teavm-platform-0.12.0-EAGLER-R2.jar",
+          "url": "teavm-platform-0.12.0-EAGLER-R2.jar",
+          "size": 141011,
+          "sha512": "d722633aa80cda6f8b730570c64fcf8dfc33bca414089c993124104e0335f4f425d23c89e3b7d10c65943382243624bc3405abee0e30007873d69cf808ef3d2a",
+          "sha256": "90a6850297837e22ef052ca56c3ce6e0820442b977d49a60e623ca4acfa9a340",
+          "sha1": "94f594f8a134f8e251bb4c394e87a378c1017a4f",
+          "md5": "379207c945732ef380b9607bce4c9fce"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "teavm-platform-0.12.0-EAGLER-R2-sources.jar",
+          "url": "teavm-platform-0.12.0-EAGLER-R2-sources.jar",
+          "size": 95606,
+          "sha512": "25c452f28e7a4b9b4359266a8b3fa9591584fdb144ff4d69bc8c66176a2908a357cb7bece97eaaa0589b7f2e3b1faf68e69dc9a67789c5516e6e0b8987058402",
+          "sha256": "ee313fb68fff6bd188e91da906bf67ecd146faef52333717accfd97a6de3a1e5",
+          "sha1": "7cc91278f3aba986a57f8be180a73d3de19075cd",
+          "md5": "17fdbb60d41f7f970d41c8de966d2147"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "teavm-platform-0.12.0-EAGLER-R2-javadoc.jar",
+          "url": "teavm-platform-0.12.0-EAGLER-R2-javadoc.jar",
+          "size": 220392,
+          "sha512": "9a12b7df882af78d360814205ccb79ca34f6f55e5b1a8705385d3cf7604918865bfc242800c83d77a4da343d41e87500e9c66f71b98daa6ddced75ff7017b65f",
+          "sha256": "07ebe4effd76006f8d6a2d0282c67b11a8e76e7a58b67c393edde2fbb3fe7bd7",
+          "sha1": "3887630a1b9d07c6f8153927a1dbc5955c10aea3",
+          "md5": "9ac23eef1b77c5113ca5475da278af87"
+        }
+      ]
+    }
+  ]
+}

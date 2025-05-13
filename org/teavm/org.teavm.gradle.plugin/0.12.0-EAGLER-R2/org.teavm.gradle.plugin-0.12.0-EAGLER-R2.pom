@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.teavm</groupId>
+  <artifactId>org.teavm.gradle.plugin</artifactId>
+  <version>0.12.0-EAGLER-R2</version>
+  <packaging>pom</packaging>
+  <name>TeaVM Gradle plugin</name>
+  <description>TeaVM Gradle plugin</description>
+  <url>https://teavm.org</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+      <comments>A business-friendly OSS license</comments>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>konsoletyper</id>
+      <name>Alexey Andreev</name>
+      <email>konsoletyper@gmail.com</email>
+      <timezone>Europe/Berlin</timezone>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:konsoletyper/teavm.git</connection>
+    <url>https://github.com/konsoletyper/teavm</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.teavm</groupId>
+      <artifactId>teavm-gradle-plugin</artifactId>
+      <version>0.12.0-EAGLER-R2</version>
+    </dependency>
+  </dependencies>
+</project>

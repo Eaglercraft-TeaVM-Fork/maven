@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.teavm",
+    "module": "teavm-relocated-libs-rhino",
+    "version": "0.12.0-EAGLER-R2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.mozilla",
+          "module": "rhino",
+          "version": {
+            "requires": "1.7.15"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "teavm-relocated-libs-rhino-0.12.0-EAGLER-R2.jar",
+          "url": "teavm-relocated-libs-rhino-0.12.0-EAGLER-R2.jar",
+          "size": 1417718,
+          "sha512": "4f5eba009d101350153ece43909eb28ce10202da9c603151c0dd23cc1ba7dc7fc62d08df11579c27f5b509aa93c0ee17bdbcb88fcac30b35f6df6016ae76137a",
+          "sha256": "da100940db4a5a62255c40ef309257c7aa098e48fdd210621848847368e7ff5c",
+          "sha1": "80bc2e5bcf3b3252c0bdc100c90e732c9b148601",
+          "md5": "d7d1b7ffeadef39de7a71957d2f20978"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "teavm-relocated-libs-rhino-0.12.0-EAGLER-R2.jar",
+          "url": "teavm-relocated-libs-rhino-0.12.0-EAGLER-R2.jar",
+          "size": 1417718,
+          "sha512": "4f5eba009d101350153ece43909eb28ce10202da9c603151c0dd23cc1ba7dc7fc62d08df11579c27f5b509aa93c0ee17bdbcb88fcac30b35f6df6016ae76137a",
+          "sha256": "da100940db4a5a62255c40ef309257c7aa098e48fdd210621848847368e7ff5c",
+          "sha1": "80bc2e5bcf3b3252c0bdc100c90e732c9b148601",
+          "md5": "d7d1b7ffeadef39de7a71957d2f20978"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "teavm-relocated-libs-rhino-0.12.0-EAGLER-R2-sources.jar",
+          "url": "teavm-relocated-libs-rhino-0.12.0-EAGLER-R2-sources.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "teavm-relocated-libs-rhino-0.12.0-EAGLER-R2-javadoc.jar",
+          "url": "teavm-relocated-libs-rhino-0.12.0-EAGLER-R2-javadoc.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}
