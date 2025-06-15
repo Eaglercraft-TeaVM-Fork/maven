@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.teavm",
+    "module": "teavm-browser-runner",
+    "version": "0.12.1-EAGLER-R3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "teavm-browser-runner-0.12.1-EAGLER-R3.jar",
+          "url": "teavm-browser-runner-0.12.1-EAGLER-R3.jar",
+          "size": 45345,
+          "sha512": "b29fdfe2cbcff8f3f68030a3b4d2ff8d66b79a6a2f77d4d9ee3cd4ed80af82dff10e0f65697cdfff2467566616f1e4cbbb156191767e4659905a7881ae7569b6",
+          "sha256": "7e12d333c6d3a18554de6eb961b7b58a2bab0aac797ad0870e7af6284f6ac679",
+          "sha1": "499def7660f01152c36167e9cea2b4327bed3b30",
+          "md5": "3a4e025af1eb1389274e50c86b8ab0a8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.18.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.18.2"
+          }
+        },
+        {
+          "group": "javax.servlet",
+          "module": "javax.servlet-api",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-server",
+          "version": {
+            "requires": "9.4.56.v20240826"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty.websocket",
+          "module": "javax-websocket-server-impl",
+          "version": {
+            "requires": "9.4.56.v20240826"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty.websocket",
+          "module": "websocket-client",
+          "version": {
+            "requires": "9.4.56.v20240826"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "teavm-browser-runner-0.12.1-EAGLER-R3.jar",
+          "url": "teavm-browser-runner-0.12.1-EAGLER-R3.jar",
+          "size": 45345,
+          "sha512": "b29fdfe2cbcff8f3f68030a3b4d2ff8d66b79a6a2f77d4d9ee3cd4ed80af82dff10e0f65697cdfff2467566616f1e4cbbb156191767e4659905a7881ae7569b6",
+          "sha256": "7e12d333c6d3a18554de6eb961b7b58a2bab0aac797ad0870e7af6284f6ac679",
+          "sha1": "499def7660f01152c36167e9cea2b4327bed3b30",
+          "md5": "3a4e025af1eb1389274e50c86b8ab0a8"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "teavm-browser-runner-0.12.1-EAGLER-R3-sources.jar",
+          "url": "teavm-browser-runner-0.12.1-EAGLER-R3-sources.jar",
+          "size": 12981,
+          "sha512": "374d943fd1247c53c90fd50bd6624a263f92907ea9513e761073210c1436418119b4b48d23fa83f0219ec3b824cada9223349b41c540554b65dd1fd5e99a426f",
+          "sha256": "286b430661f6c6ade5f34eb58b1e1d24c42765a1e3793089cf3128f225e0b223",
+          "sha1": "5d55b0cc2051c94255950281e7150ab8b771c4b2",
+          "md5": "aaa0e12c00fb6781db8ad081273e6f5e"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "teavm-browser-runner-0.12.1-EAGLER-R3-javadoc.jar",
+          "url": "teavm-browser-runner-0.12.1-EAGLER-R3-javadoc.jar",
+          "size": 77377,
+          "sha512": "8e4522e16dcd627277287075f92db74515d6f516a767426e1a96cbcffbb3c5f8cd5fa2e8213ea41571c1a6db16b553bbfac5a70e8d658e14f00843aef51075d4",
+          "sha256": "b591253377d917f4e079c6bf789728c19419859b134ab58f065ff05f20e2eea8",
+          "sha1": "146bc063a5c3dd39074b07b51f1cd7e19e853372",
+          "md5": "c292df726722c8224d3a497e444a2055"
+        }
+      ]
+    }
+  ]
+}

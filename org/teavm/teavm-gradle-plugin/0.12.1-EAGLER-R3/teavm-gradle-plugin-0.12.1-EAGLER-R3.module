@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.teavm",
+    "module": "teavm-gradle-plugin",
+    "version": "0.12.1-EAGLER-R3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "teavm-gradle-plugin-0.12.1-EAGLER-R3.jar",
+          "url": "teavm-gradle-plugin-0.12.1-EAGLER-R3.jar",
+          "size": 81472,
+          "sha512": "9c84623de07fd323914d42fe32c50bdd1995de5aef494719f2e60b496cfa69502f5100539e8a9e466526c57925305eef7438fd485d897ff4865ee7897fd92add",
+          "sha256": "fd40ca3faa01669a0c984e480581079c16576bf74cca957c390150dcde60651b",
+          "sha1": "ebc37963611b7b545dbf56ad78d7953b21cb3d57",
+          "md5": "9b8694b28a0194d77b4f2482c6f64aea"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.teavm",
+          "module": "teavm-core",
+          "version": {
+            "requires": "0.12.1-EAGLER-R3"
+          }
+        },
+        {
+          "group": "org.teavm",
+          "module": "teavm-tooling",
+          "version": {
+            "requires": "0.12.1-EAGLER-R3"
+          }
+        },
+        {
+          "group": "org.teavm",
+          "module": "teavm-wasm-gc-deobfuscator",
+          "version": {
+            "requires": "0.12.1-EAGLER-R3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "teavm-gradle-plugin-0.12.1-EAGLER-R3.jar",
+          "url": "teavm-gradle-plugin-0.12.1-EAGLER-R3.jar",
+          "size": 81472,
+          "sha512": "9c84623de07fd323914d42fe32c50bdd1995de5aef494719f2e60b496cfa69502f5100539e8a9e466526c57925305eef7438fd485d897ff4865ee7897fd92add",
+          "sha256": "fd40ca3faa01669a0c984e480581079c16576bf74cca957c390150dcde60651b",
+          "sha1": "ebc37963611b7b545dbf56ad78d7953b21cb3d57",
+          "md5": "9b8694b28a0194d77b4f2482c6f64aea"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "teavm-gradle-plugin-0.12.1-EAGLER-R3-sources.jar",
+          "url": "teavm-gradle-plugin-0.12.1-EAGLER-R3-sources.jar",
+          "size": 49881,
+          "sha512": "c6928a281aa6fd905a1b02eff6441991a18759f7c3cba4baea263fae884c8ab1f901fb5cd887b31f4aba0a5f4054f4abeed32e0c05c8a1fdef3e75e5950bd188",
+          "sha256": "cf43a49438104251fa4983b4602dee6714e1b24a823a3f9d9f2815be5916b532",
+          "sha1": "3d6856f01fbf46eac17d1dd16cedcb5c441521f8",
+          "md5": "c313d21cbed07485d4b73ccdd12f060d"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "teavm-gradle-plugin-0.12.1-EAGLER-R3-javadoc.jar",
+          "url": "teavm-gradle-plugin-0.12.1-EAGLER-R3-javadoc.jar",
+          "size": 204785,
+          "sha512": "92c556b09e4102471095892bf46ba9f4c0b88fe4946d35c777b294a8f77d91a08e6b6dcea8e7106806ec469a3183fb0e1814e116dedb641f17557cbfe88421f4",
+          "sha256": "3be80d7e90b0dc9217ae1fded6c939de16dd5159fdde6ea999dc3ba9987a6e21",
+          "sha1": "b5ea19ab4a0260cb237f3752fe5c876af8bf059e",
+          "md5": "42d806e0b551122456ab6aac8f0f3d22"
+        }
+      ]
+    }
+  ]
+}

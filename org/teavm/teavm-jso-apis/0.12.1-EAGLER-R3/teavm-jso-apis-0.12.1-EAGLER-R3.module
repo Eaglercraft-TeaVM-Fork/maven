@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.teavm",
+    "module": "teavm-jso-apis",
+    "version": "0.12.1-EAGLER-R3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.teavm",
+          "module": "teavm-jso",
+          "version": {
+            "requires": "0.12.1-EAGLER-R3"
+          }
+        },
+        {
+          "group": "org.teavm",
+          "module": "teavm-interop",
+          "version": {
+            "requires": "0.12.1-EAGLER-R3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "teavm-jso-apis-0.12.1-EAGLER-R3.jar",
+          "url": "teavm-jso-apis-0.12.1-EAGLER-R3.jar",
+          "size": 168103,
+          "sha512": "78fd39e3e573dcce4331c772c864ac108d1b28e5139a25479180efc0093eb829ca76247ceb293550696aaf50b20301d13953ea908d7bf10c6e7344d625b5fe14",
+          "sha256": "da9e4a9166acc873ffc39c0c4652efbfe8c20e13aeb79fd5f41502eec4a13c74",
+          "sha1": "d7525883c3c17664294e6d9ed26ce214d4561c47",
+          "md5": "954158dfeb4e8323301f7d51e06d2c69"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.teavm",
+          "module": "teavm-jso",
+          "version": {
+            "requires": "0.12.1-EAGLER-R3"
+          }
+        },
+        {
+          "group": "org.teavm",
+          "module": "teavm-interop",
+          "version": {
+            "requires": "0.12.1-EAGLER-R3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "teavm-jso-apis-0.12.1-EAGLER-R3.jar",
+          "url": "teavm-jso-apis-0.12.1-EAGLER-R3.jar",
+          "size": 168103,
+          "sha512": "78fd39e3e573dcce4331c772c864ac108d1b28e5139a25479180efc0093eb829ca76247ceb293550696aaf50b20301d13953ea908d7bf10c6e7344d625b5fe14",
+          "sha256": "da9e4a9166acc873ffc39c0c4652efbfe8c20e13aeb79fd5f41502eec4a13c74",
+          "sha1": "d7525883c3c17664294e6d9ed26ce214d4561c47",
+          "md5": "954158dfeb4e8323301f7d51e06d2c69"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "teavm-jso-apis-0.12.1-EAGLER-R3-sources.jar",
+          "url": "teavm-jso-apis-0.12.1-EAGLER-R3-sources.jar",
+          "size": 208018,
+          "sha512": "e764af68163b724787dbfd3fd90dd635689543d1cd50220f6f67de485137cb2e3cccb9c64665c83485071d45e32ebc572f10e32cb95d84e25192d7e037990ac1",
+          "sha256": "8210584e76624958f4cec3181eab5b60a1aa4492fe5ff157ffd140045bd0521a",
+          "sha1": "2a2af7110bddb2c8d4ef610fa37ef6ec3a2bdf38",
+          "md5": "51bdb503952074cea53c6e39bba39288"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "teavm-jso-apis-0.12.1-EAGLER-R3-javadoc.jar",
+          "url": "teavm-jso-apis-0.12.1-EAGLER-R3-javadoc.jar",
+          "size": 1062099,
+          "sha512": "8afda88e453f16ed87fe8227190e7c80d1e752bc72b248b20ba8dbffa116aac7dc0a5851b10ea051700603488a73a9172a256af840c62508dcdbf76f4b6c3e8f",
+          "sha256": "8d9a544838b2abb4b047c6a5d98f9df37cdf481dea8aff1c49dddcadeef7984d",
+          "sha1": "43c9c84f87a9e9c018047d255fbb859d60fc764e",
+          "md5": "aea66cfe11f898f4ab1ca6b9234a8419"
+        }
+      ]
+    }
+  ]
+}
